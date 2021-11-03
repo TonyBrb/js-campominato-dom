@@ -35,3 +35,7 @@ main{
 .clicked{
   background-color:cornflowerblue;
 }
+
+.bomb{
+  background: red;
+}
