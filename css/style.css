@@ -1,0 +1,37 @@
+.main-wrapper{
+  height: 100vh;
+}
+
+.logo img{
+  width: 45px;
+  margin-right: 20px;
+}
+
+.logo span{
+  font-weight: bold;
+  font-size: 30px;
+}
+
+main{
+  background-color: aquamarine;
+  flex-grow: 1;
+  padding: 20px 0;
+}
+
+.griglia{
+  width: 500px;
+  height: 500px;
+}
+
+.cella{
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.clicked{
+  background-color:cornflowerblue;
+}
